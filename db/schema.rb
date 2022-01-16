@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_01_14_131147) do
+ActiveRecord::Schema.define(version: 2022_01_15_235400) do
 
   create_table "lists", force: :cascade do |t|
     t.string "title"
