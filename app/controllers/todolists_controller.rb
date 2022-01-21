@@ -16,9 +16,9 @@ class TodolistsController < ApplicationController
   def show
     @list = List.find(params[:id])
   end
-  
-  def edot
-    @list = List.find(params[:])
+
+  def edit
+    @list = List.find(params[:id])
   end
 
 
